@@ -1,0 +1,39 @@
+syntax = "proto2";
+
+option java_outer_classname = "OwnerProtocolBuffer";
+
+message Root{
+	repeated Owner Owners = 1;
+
+	message Owner{
+		
+		required int32 Id = 1;
+
+		required string Name = 2;
+			
+		repeated Pet Pets = 3;
+			
+		required string BirthDate = 4;
+			
+		required string Phone = 5;
+			
+		required string Address = 6;
+			
+		message Pet{
+	
+			required int32 Id = 1;	
+	
+			required string Name = 2;
+			
+			required string Species = 3;
+				
+			required string Gender = 4;
+				
+			required float Weight = 5;
+				
+			required string BirthDate = 6;
+				
+			required string Description = 7;	
+		} 
+	}
+}

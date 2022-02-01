@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pets>
+    <pets id="6511">
+        <Owner id="41">
+            <Name>Joaquim</Name>
+            <BirthDate>2021-09-27T22:57:58.142+01:00</BirthDate>
+            <Phone>+351986265032</Phone>
+            <Address>Rua dos Malucos</Address>
+        </Owner>
+        <Name>Pet_1</Name>
+        <Species>Cat</Species>
+        <Gender>70</Gender>
+        <Weight>5.13</Weight>
+        <BirthDate>2021-09-27T22:57:58.142+01:00</BirthDate>
+        <Description>Siamês</Description>
+    </pets>
+    <pets id="3880">
+        <Owner id="1126">
+            <Name>Antonio</Name>
+            <BirthDate>2021-09-27T22:57:58.142+01:00</BirthDate>
+            <Phone>+351965265719</Phone>
+            <Address>Rua dos Golfinhos</Address>
+        </Owner>
+        <Name>Pet_2</Name>
+        <Species>Dolphin</Species>
+        <Gender>70</Gender>
+        <Weight>27.03</Weight>
+        <BirthDate>2021-09-27T22:57:58.142+01:00</BirthDate>
+        <Description>Treinado</Description>
+    </pets>
+    <pets id="9646">
+        <Owner id="8642">
+            <Name>Carlos</Name>
+            <BirthDate>2021-09-27T22:57:58.142+01:00</BirthDate>
+            <Phone>+351962513098</Phone>
+            <Address>Rua da Maluqueira</Address>
+        </Owner>
+        <Name>Pet_3</Name>
+        <Species>Horse</Species>
+        <Gender>77</Gender>
+        <Weight>305.58</Weight>
+        <BirthDate>2021-09-27T22:57:58.142+01:00</BirthDate>
+        <Description>Lusitano</Description>
+    </pets>
+</pets>
